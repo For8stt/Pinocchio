@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+members = ["programs"]
+exclude = []
+
+[workspace.package]
+authors = ["Pinocchio Guide"]
+repository = "https://github.com/vict0rcarvalh0/pinocchio-guide"
+
+[workspace.dependencies]
+pinocchio = { version = "0.10.1", features = ["cpi"] }
+pinocchio-system = "0.5.0"
+pinocchio-token = "0.5.0"
+five8_const = "0.1.3"
+spl-token = { version = "9.0.0", features = ["no-entrypoint"] }
+solana-sdk = "3.0.0"
+solana-program = "3.0.0"
+solana-sdk-ids = "3.1.0"
+solana-program-pack = "3.0.0"
+mollusk-svm = { version = "0.10.1", features = ["all-builtins"] }
+mollusk-svm-programs-token = "0.10.1"
